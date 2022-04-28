@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <button class="nav-toggle" aria-label="toggle navigation">
+        <button class="nav-toggle">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
@@ -32,6 +32,16 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Download resume button -->
+    <div>
+        <a class="fa fa-download fa-4x download-resume"
+            href="https://prasaddemoapp.blob.core.windows.net/personal/Prasad_Deshkar_Resume.pdf"
+            data-placement="bottom" title="Download resume">
+        </a>
+    </div>
+
+
     <!-- Introduction -->
     <section class="intro" id="home">
         <h1 class="section__title section__title--intro">
@@ -39,7 +49,20 @@
         </h1>
         <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
         <!-- <img class="intro__img profile_image" src="img/Prasad_Profile.PNG" alt="a picture of Prasad"> -->
-        <img class="profile_image" src="img/Prasad_Profile.png" alt="a picture of Prasad" > 
+        <img class="profile_image" src="img/Prasad_Profile.png" alt="a picture of Prasad">
+
+    </section>
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who am I</h2>
+        <p class="section__subtitle section__subtitle--about">Full-stack developer</p>
+        <div class="about-me__body">
+            <p>Self driven and passionate developer with 2+ years of full stack development experience
+                and a proven knowledge of application development and troubleshooting. Aiming to leverage
+                skills to successfully fullfill the developmental responsibilities at an organization.
+            </p>
+        </div>
+        <img class="about-me__img" src="img/Prasad_Skills_small.jpg" alt="">
     </section>
 
     <!-- My services -->
@@ -54,41 +77,69 @@
             </div>
             <div class="service">
                 <h3>Backend</h3>
-                <p>Experiensed in developing scalable robust Rest API's in C#, Asp.Net Core.
+                <p>Experienced in developing scalable robust Rest API's in C#, .Net Core.
                 </p>
             </div>
             <div class="service">
                 <h3>Cloud</h3>
-                <p>Predominently worked on Azure cloud. Worked on serverless application, Managing the
-                    CI/CD pipeline in Azure DevOps.
+                <p>Predominently worked on Azure cloud. Managed the
+                    CI/CD pipeline in Azure DevOps. Have primary knowledge about Azure cloud services
                 </p>
             </div>
         </div>
-        <a href="#work" class="btn">My Work</a>
     </section>
 
-    <!-- About me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Full-stack developer</p>
-        <div class="about-me__body">
-            <p>Focused professional and passionate developer with 2+ years of full stack development
-                and a proven knowledge of application development and troubleshooting. Aiming to leverage
-                my skills to successfully fill the developer role at your organization.
-            </p>
-        </div>
-        <img class="about-me__img" src="img/Prasad_Skills_small.jpg" alt="">
-    </section>
+
 
     <!-- My Wordk -->
 
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My work</h2>
         <p class="section__subtitle section__subtitle--work"></p>
+
+        <div class="portfolio">
+            <div class="tenure">March 2020 - Present</div>
+            <div class="experience">
+                <h3 class="designation">Software Developer</h2>
+                    <h3 class="company">Siemens Healthineers, Bangalore, Karnataka</h1>
+                        <div class="tasks">
+                            <ul>
+                                <li>
+                                    <h4>Worked on AI Based radiological application which processes clinical patient
+                                        data and performs
+                                        contouring on organs saving radiologist time and enhancing diagnostic accuracy
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>Experience on working with DotNet Core framework using C# language
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>Taken up scrum master role as per necessity of team helping team achieve goals.
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>Automated build and release through Azure DevOps with YAML scripts.</h4>
+                                </li>
+                                <li>
+                                    <h4>Worked on Azure cloud infrastructure like cosmosDB, Service bus, blob storage.
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>
+                                        Automated Integration tests in DotNet core with C# using SpecFlow BDD Scenarios
+                                    </h4>
+                                </li>
+                            </ul>
+                        </div>
+
+            </div>
+        </div>
+
         <div class="portfolio">
             <div class="tenure">July 2017 - October 2017</div>
             <div class="experience">
-                <h3 class="designation">Intern - Software Developer</h2>
+                <h3 class="designation"> Software Developer Intern</h2>
                     <h3 class="company">All India Reporter InfoTech Limited, Nagpur, Maharashtra</h1>
                         <div class="tasks">
                             <ul>
@@ -106,9 +157,6 @@
                                     <h4>Developed AIR-Ambassador application with Ionic framework</h4>
                                 </li>
                                 <li>
-                                    <h4>Write maintainable code with >90% code coverage.</h4>
-                                </li>
-                                <li>
                                     <h4>Worked on Jersey RESTful Web Services with Java back-end and MySQL database</h4>
                                 </li>
                             </ul>
@@ -116,50 +164,7 @@
 
             </div>
         </div>
-        <div class="portfolio">
-            <div class="tenure">March 2020 - Present</div>
-            <div class="experience">
-                <h3 class="designation">Software Developer</h2>
-                    <h3 class="company">Siemens Healthineers, Bengalore, Karnataka</h1>
-                        <div class="tasks">
-                            <ul>
-                                <li>
-                                    <h4>Worked on AI Based radiological application which processes clinical patient data and performs
-                                        contouring on organs saving radiologist time and enhancing diagnostic accuracy
-                                    </h4>
-                                </li>
-                                <li>
-                                    <h4>Experience on working with DotNet Core framework using C# language
-                                    </h4>
-                                </li>
-                                <li>
-                                    <h4>Taken up scrum master role as per necessity of team helping team achieve goals.</h4>
-                                </li>
-                                <li>
-                                    <h4>Automated build and release through Azure DevOps with YAML scripts.</h4>
-                                </li>
-                                <li>
-                                    <h4>Automated build & release through Azure Devops.</h4>
-                                </li>
-                                <li>
-                                    <h4>Worked on Azure cloud infrastructure like cosmosDB, Service bus, blob storage.
-                                    </h4>
-                                </li>
-                                <li>
-                                    <h4>
-                                        Automated Integration tests in DotNet core with C# using SpecFlow BDD Scenarios
-                                    </h4>
-                                </li>
-                                <li>
-                                    <h4>
-                                        Automated Integration tests in DotNet core with C# using SpecFlow BDD Scenarios
-                                    </h4>
-                                </li>
-                            </ul>
-                        </div>
 
-            </div>
-        </div>
     </section>
     <!-- My education -->
     <section class="my-education" id="education">
@@ -170,7 +175,7 @@
                 <h4 class="specilazation">Diploma in advanced computing(Feb 2020).</h2>
         </div>
 
-        
+
         <h2 class="section__title section__title--education">Bachelor's Degree</h2>
         <div class="education-details">
             <div class="college">Yeshwantrao Chavhan College of Engineering</div>
@@ -178,7 +183,7 @@
                 <h4 class="specilazation">Bachelor of Engineering in Information Technology (April 2018).</h2>
         </div>
     </section>
-   
+
     <footer class="footer">
         <a href="mailto:prasaddeshkar7@gmail.com" class="footer__link">prasaddeshkar7@gmail.com</a>
         <ul class="social-list">
