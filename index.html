@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <button class="nav-toggle">
+        <button style="position: fixed;" class="nav-toggle">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
@@ -29,7 +29,7 @@
                 <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
                 <li class="nav__item"><a href="#projects" class="nav__link">My Personal Projects</a></li>
                 <li class="nav__item"><a href="#education" class="nav__link">My Education</a></li>
-
+                <li class="nav__item"><a href="docs/Prasad_Deshkar_Resume.pdf" class="nav__link">Download resume</a></li>
             </ul>
         </nav>
     </header>
@@ -37,11 +37,10 @@
     <!-- Download resume button -->
     <div>
         <a class="fa fa-download fa-4x download-resume"
-            href="https://prasaddemoapp.blob.core.windows.net/personal/Prasad_Deshkar_Resume.pdf"
+            href="docs/Prasad_Deshkar_Resume.pdf"
             data-placement="bottom" title="Download resume">
         </a>
     </div>
-
 
     <!-- Introduction -->
     <section class="intro" id="home">
@@ -231,21 +230,28 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <a href="mailto:prasaddeshkar7@gmail.com" class="footer__link">prasaddeshkar7@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://www.linkedin.com/in/prasad-deshkar-787923133/">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/PrasadD7">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-        </ul>
-    </footer>
+    <section id="contact-details" >
+        <footer class="footer">
+            <a href="mailto:prasaddeshkar7@gmail.com" class="footer__link">prasaddeshkar7@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/prasad-deshkar-787923133/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/PrasadD7">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://wa.me/7387721677">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>    
+    </section>
     <script src="js/index.js"></script>
 </body>
 

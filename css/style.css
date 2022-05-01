@@ -582,7 +582,11 @@ header {
 
 .download-resume {
     position: fixed;
-    left: 90%;
+    right: 1%;
     top: 70%;
     color: #f1ed09;
+}
+
+#contact-details{
+    padding: 0%;;
 }
